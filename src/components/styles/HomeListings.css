@@ -1,0 +1,26 @@
+.homeListing {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 1px solid red;
+}
+.recentWorks {
+  padding: 0px calc((100vw - 1100px) / 2);
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.recentWorks p:nth-child(1) {
+  font-size: 2.5rem;
+  font-family: "Kaushan Script", cursive;
+}
+.homeListing button {
+  padding: 10px 15px;
+  background-color: white;
+  border-radius: 5px;
+  border: 2px solid black;
+  font-weight: bold;
+  font-size: 1rem;
+}

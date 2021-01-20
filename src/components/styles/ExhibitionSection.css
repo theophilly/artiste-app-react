@@ -1,0 +1,17 @@
+.ExhibitionSection {
+  display: flex;
+}
+.firstSection {
+  flex: 0.5;
+}
+.secondSection {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex: 0.5;
+}
+.firstSection div {
+  background: #391983;
+  color: red;
+}
