@@ -10,6 +10,10 @@ function ArtComponent({ art }) {
         <p> {art.title}</p>
         <span>{art.year}</span>
       </div>
+      <div>
+        <p> {art.medium}</p>
+        <p> {art.dimemsion}</p>
+      </div>
     </div>
   );
 }

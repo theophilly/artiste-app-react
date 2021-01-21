@@ -13,13 +13,13 @@ function App() {
   return (
     <Router>
       <div className="App">
-        {/* <Header></Header>
+        {/* <Header></Header> */}
         <Hero />
         <AboutSection />
         <HomeListings />
         <ExhibitionSection />
-        <AboutPage /> */}
-        <ArchivePage />
+        {/* <AboutPage />
+        <ArchivePage /> */}
       </div>
     </Router>
   );

@@ -1,5 +1,7 @@
 .ExhibitionSection {
   display: flex;
+  max-width: 100%;
+  justify-content: flex-start;
 }
 .firstSection {
   flex: 0.5;
@@ -14,4 +16,9 @@
 .firstSection div {
   background: #391983;
   color: red;
+}
+@media Screen and (max-width: 640px) {
+  .ExhibitionSection {
+    flex-direction: column;
+  }
 }
