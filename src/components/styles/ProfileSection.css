@@ -1,5 +1,8 @@
 .ProfileSection {
   padding: 0 3vw;
+  font-family: "Poppins", sans-serif;
+  background: url("https://websitedemos.net/diagnostics-lab-02/wp-content/uploads/sites/662/2020/08/diagnostic-lab-content-gradient-bg.svg");
+  background-repeat: no-repeat;
 }
 
 .ProfileSection .innerSection {
@@ -20,16 +23,31 @@
 .profileContent {
   display: flex;
 }
-.profileContent div {
-  flex: 0.5;
-  font-size: clamp(18px, 2vw, 32px);
+.profileContent :nth-child(1) {
+  flex: 0.6;
+}
+.profileContent :nth-child(1) button {
+  background: #a08c5d;
+  border: none;
+  color: white !important;
+  padding: 8px 30px;
+  border-radius: 15px;
+  font-size: 1.3vw;
+}
+.profileContent :nth-child(2) {
+  flex: 0.4;
 }
 .profileContent div p {
-  width: 85%;
+  font-family: "calibri" !important;
+  width: 90%;
   line-height: 1.5rem;
   padding: 20px;
+  font-size: clamp(13px, 1.5vw, 20px);
+  font-weight: 600;
+  /* font-size: 1.4vw; */
 }
 .profileContent img {
   height: 350px;
-  width: 70%;
+  min-width: 81%;
+  margin-top: -20px;
 }

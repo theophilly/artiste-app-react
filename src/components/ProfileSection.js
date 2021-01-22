@@ -20,6 +20,7 @@ function ProfileSection(props) {
             Yoruba culture. <br /> <br /> His work brings together local forms
             of artwork and a contemporary approach,{" "}
           </p>
+          <button>See Full Profile</button>
         </div>
         <div>
           <img src={profile}></img>
