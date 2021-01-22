@@ -6,7 +6,13 @@ function ExhibitionSection(props) {
   return (
     <div className="ExhibitionSection">
       <div className="firstSection">
-        <div> gggggggggg</div>
+        <div>
+          <hr></hr> Exhibitions
+        </div>
+        <p className="pExhibition">
+          Exhibitions I have had the honor to attend in my artistic journey
+        </p>
+        <button>See All Exhibitions</button>
       </div>
       <div className="secondSection">
         <ExhibitionComponent />

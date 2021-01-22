@@ -1,0 +1,35 @@
+.ProfileSection {
+  padding: 0 3vw;
+}
+
+.ProfileSection .innerSection {
+  padding: 40px;
+  height: 150px;
+  width: 100%;
+  background: #391983;
+  color: white;
+  font-size: clamp(18px, 2vw, 32px);
+  margin-bottom: 3.5rem;
+}
+.ProfileSection hr {
+  border: none;
+  width: 4rem;
+  height: 5px;
+  background: #a08c5d;
+}
+.profileContent {
+  display: flex;
+}
+.profileContent div {
+  flex: 0.5;
+  font-size: clamp(18px, 2vw, 32px);
+}
+.profileContent div p {
+  width: 85%;
+  line-height: 1.5rem;
+  padding: 20px;
+}
+.profileContent img {
+  height: 350px;
+  width: 70%;
+}

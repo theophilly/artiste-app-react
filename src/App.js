@@ -8,6 +8,7 @@ import ExhibitionSection from "./components/ExhibitionSection";
 import Header from "./components/Header";
 import AboutPage from "./pages/AboutPage";
 import ArchivePage from "./pages/ArchivePage";
+import ProfileSection from "./components/ProfileSection";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <AboutSection />
         <HomeListings />
         <ExhibitionSection />
+        <ProfileSection />
         {/* <AboutPage />
         <ArchivePage /> */}
       </div>

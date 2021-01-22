@@ -3,12 +3,19 @@
   width: 220px;
   height: 300px;
   margin: 10px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.ExhibitionComponent:hover {
+  color: red;
+  margin-bottom: 10px;
 }
 .ExhibitionComponent img {
   width: 100%;
   height: 100%;
 }
 .ECOverlay {
+  padding: 5px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
