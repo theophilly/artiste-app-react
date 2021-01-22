@@ -11,7 +11,7 @@
   width: 100%;
   background: #391983;
   color: white;
-  font-size: clamp(18px, 2vw, 32px);
+  font-size: clamp(20px, 2vw, 32px);
   margin-bottom: 3.5rem;
 }
 .ProfileSection hr {
@@ -32,7 +32,7 @@
   color: white !important;
   padding: 8px 30px;
   border-radius: 15px;
-  font-size: 1.3vw;
+  font-size: clamp(14px, 1.3vw, 20px);
 }
 .profileContent :nth-child(2) {
   flex: 0.4;
@@ -42,7 +42,7 @@
   width: 90%;
   line-height: 1.5rem;
   padding: 20px;
-  font-size: clamp(13px, 1.5vw, 20px);
+  font-size: clamp(16px, 1.5vw, 20px);
   font-weight: 600;
   /* font-size: 1.4vw; */
 }
@@ -50,4 +50,32 @@
   height: 350px;
   min-width: 81%;
   margin-top: -20px;
+}
+
+@media Screen and (max-width: 800px) {
+  .profileContent {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .profileContent img {
+    height: 320px;
+    min-width: 0%;
+    max-width: 400px;
+    margin-top: 5px;
+    width: 100%;
+    margin-top: -40px;
+  }
+  .profileContent div p {
+    width: 100%;
+
+    margin-top: 0px;
+    font-weight: 600;
+    /* font-size: 1.4vw; */
+  }
+  .profileContent :nth-child(1) {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
 }

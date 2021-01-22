@@ -52,4 +52,13 @@
   .ExhibitionSection {
     flex-direction: column;
   }
+  .firstSection {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .secondSection {
+    padding: 0px;
+  }
 }

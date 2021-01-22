@@ -18,7 +18,7 @@ function ProfileSection(props) {
             process-oriented method Baruwa partly produces the pigments for his
             artwork by himself, based on the use of plants as herbal medicine in
             Yoruba culture. <br /> <br /> His work brings together local forms
-            of artwork and a contemporary approach,{" "}
+            of artwork and a contemporary approach
           </p>
           <button>See Full Profile</button>
         </div>
