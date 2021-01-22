@@ -2,6 +2,8 @@
   display: flex;
   max-width: 100%;
   justify-content: flex-start;
+  height: auto;
+  margin-bottom: 20px;
 }
 .firstSection {
   flex: 0.5;
